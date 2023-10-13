@@ -32,7 +32,7 @@ test:
     - anaconda_cli_base
   commands:
     - python -c "from anaconda_cli_base import __version__; assert __version__ == \"{{ version }}\""
-    - pip check
+    #- pip check # anaconda-anon-usage 0.4.3 requires conda, which is not installed.
   requires:
     - pip
 
