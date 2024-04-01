@@ -22,7 +22,6 @@ requirements:
     - pip
   run:
     - python
-    - anaconda-client >=1.12.0
     - readchar
     - rich
     - typer
